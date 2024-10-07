@@ -42,21 +42,21 @@ example data: 0x0003 7201
 **0003** - knob keycode identifier
 
 **72 [00, 01, 02, 04]** - button code
-
+```
 - 00 - no button
 - 01 - down
 - 02 - middle
 - 03 - _unknown purpose, currently unused_
 - 04 - up
-
+```
 0x7040 - internal keyboard communication? 
 
 ---
 
 ### knob button side-pressed 
-
+```
 example data: 0x0003 9100 0001 0000 (?)
-
+```
 0x0003 - knob button keycode identifier
 
 **9100** - side press
@@ -65,10 +65,10 @@ example data: 0x0003 9100 0001 0000 (?)
 [0, 6] is carousel menu item. 0 is first in list, and 5 - the last item in list
 
 ### LED ? TODO INVESTIGATE 
-
+```
 example data: 0x0003 9200 0064 0000 (?)
 - 0x0003 9200 0000 0000
 - 0x0003 9200 0064 0000
 - 0x0003 9200 004B 0000
-
+```
 
